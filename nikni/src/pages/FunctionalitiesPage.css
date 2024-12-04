@@ -1,0 +1,47 @@
+.functionalities-page {
+    background: linear-gradient(120deg, #ffffff, #f0f0f0);
+    color: #333;
+    padding: 20px;
+    flex-grow: 1;
+
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%; /* Ensure it takes full height */
+    }
+  
+  
+  .grid {
+    display: grid;
+    width: 100%;
+    max-width: 800px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+    padding: 20px ;
+  }
+  
+  .card {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-button {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #6495ed;
+  }
+  
