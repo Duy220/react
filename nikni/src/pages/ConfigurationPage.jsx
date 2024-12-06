@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import './ConfigurationPage.css';
 import { validate_Checkboxes } from '../components/Input_Validator'
 
-const fqes = ["Dremio","Apache_Spark","Trinio","Presto"];
+
 
 function ConfigurationPage() {
 
+    const fqes = ["Dremio","Apache_Spark","Trinio","Presto"];
     const [isChecked, setCheckedValue] = useState({Dremio: false, Apache_Spark: false, Trinio: false, Presto: false});
     const [input, setInput] = useState({
         numberInput: '', urlInput: '', intervalInput: '', queryInput: '' });
