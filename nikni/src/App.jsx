@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import IntroductionPage from './pages/IntroductionPage';
 import FunctionalitiesPage from './pages/FunctionalitiesPage';
+import ConfigurationPage from './pages/ConfigurationPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import './App.css';
@@ -15,6 +16,7 @@ function App() {
       <Header />
       {currentPage === 'introduction' && <IntroductionPage navigateTo={navigateTo} />}
       {currentPage === 'functionalities' && <FunctionalitiesPage navigateTo={navigateTo} />}
+      {currentPage === 'configurations' && <ConfigurationPage />}
       <Footer />
     </div>
   );

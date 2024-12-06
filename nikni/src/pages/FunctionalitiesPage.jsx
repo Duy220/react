@@ -8,7 +8,7 @@ const FunctionalitiesPage = ({ navigateTo }) => (
       Here you can configure databases, run tests, and visualize results.
     </p>
     <div className="grid">
-      <div className="card">Configure Databases</div>
+      <div className="card" onClick={() => navigateTo('configurations')}>Configure your Querys</div>
       <div className="card">Run Tests</div>
       <div className="card">View Results</div>
     </div>
